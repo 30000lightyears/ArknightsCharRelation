@@ -1,0 +1,114 @@
+{
+    "nodes": [
+        {
+            "label": "阿米娅",
+            "type": "Character"
+        },
+        {
+            "label": "博士",
+            "type": "Character"
+        },
+        {
+            "label": "杜宾",
+            "type": "Character"
+        },
+        {
+            "label": "凯尔希",
+            "type": "Character"
+        },
+        {
+            "label": "医疗干员",
+            "type": "Character"
+        },
+        {
+            "label": "整合运动成员",
+            "type": "Character"
+        },
+        {
+            "label": "Ace",
+            "type": "Character"
+        },
+        {
+            "label": "临光",
+            "type": "Character"
+        },
+        {
+            "label": "梅菲斯特",
+            "type": "Character"
+        },
+        {
+            "label": "塔露拉",
+            "type": "Character"
+        },
+        {
+            "label": "浮士德",
+            "type": "Character"
+        }
+    ],
+    "edges": [
+        {
+            "direction": "undirected",
+            "from": "阿米娅",
+            "to": "博士",
+            "attributes": {
+                "description": "出现在同一剧情（0_welcome_to_guide, 2_guide_to_home, level_main_00-01_beg, level_main_00-01_end, level_main_00-08_beg, level_main_00-09_end）"
+            }
+        },
+        {
+            "direction": "undirected",
+            "from": "阿米娅",
+            "to": "杜宾",
+            "attributes": {
+                "description": "出现在同一剧情（0_welcome_to_guide, 2_guide_to_home, level_main_00-01_beg, level_main_00-01_end, level_main_00-02_beg, level_main_00-02_end, level_main_00-07_beg, level_main_00-07_end, level_main_00-08_beg, level_main_00-09_end, level_main_00-11_end）"
+            }
+        },
+        {
+            "direction": "undirected",
+            "from": "阿米娅",
+            "to": "凯尔希",
+            "attributes": {
+                "description": "直接提及（0_welcome_to_guide: 提及凯尔希医生的远程通讯；2_guide_to_home: 提及凯尔希医生的计划；level_main_00-01_end: 提及凯尔希的行动）"
+            }
+        },
+        {
+            "direction": "undirected",
+            "from": "杜宾",
+            "to": "博士",
+            "attributes": {
+                "description": "出现在同一剧情（0_welcome_to_guide, 2_guide_to_home, level_main_00-01_end）"
+            }
+        },
+        {
+            "direction": "undirected",
+            "from": "杜宾",
+            "to": "Ace",
+            "attributes": {
+                "description": "出现在同一剧情（level_main_00-04_beg, level_main_00-06_end, level_main_00-07_beg, level_main_00-07_end, level_main_00-11_end）"
+            }
+        },
+        {
+            "direction": "undirected",
+            "from": "阿米娅",
+            "to": "临光",
+            "attributes": {
+                "description": "出现在同一剧情（level_main_00-07_end, level_main_00-09_end, level_main_00-10_beg, level_main_00-11_end）；直接提及（level_main_00-07_beg: 杜宾提及临光在汇合点等待）"
+            }
+        },
+        {
+            "direction": "undirected",
+            "from": "梅菲斯特",
+            "to": "塔露拉",
+            "attributes": {
+                "description": "直接提及（level_main_00-08_beg: 提及向塔露拉汇报；level_main_00-11_end: 提及塔露拉压制切尔诺伯格核心）"
+            }
+        },
+        {
+            "direction": "undirected",
+            "from": "临光",
+            "to": "浮士德",
+            "attributes": {
+                "description": "出现在同一剧情（level_main_00-10_beg）"
+            }
+        }
+    ]
+}
